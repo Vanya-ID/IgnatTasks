@@ -1,0 +1,22 @@
+.affairs {
+color: white;
+}
+.deleteBtn{
+    margin: 5px;
+}
+
+.btn{
+    margin-left:  5px;
+}
+.affairDiv{
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.affairName{
+    padding-left: 5px;
+   width: 100px;
+}
+.affairPriority{
+
+}

@@ -1,0 +1,55 @@
+
+.message {
+    display: flex;
+    align-items: flex-end;
+}
+
+.messageImg {
+    align-self: flex-end;
+    padding-top: 48px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    padding-right: 15px;
+}
+
+.ourMessage {
+    min-width: 240px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 11px 11px 11px 0;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.name {
+    padding: 5px;
+    font-size: 22px;
+    color: #a25de8;
+}
+
+.text {
+    padding: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    word-wrap: break-word;
+}
+
+.time {
+    padding-right: 5px;
+    font-size: 16px;
+    color: #a49d9d;
+    align-self: flex-end;
+}
+
+
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0)15px, rgba(255, 255, 255, 0.2) 0);
+}
+
