@@ -5,13 +5,17 @@
     padding-left: 5px;
 }
 .input{
-background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.1);
     border-radius: 16px;
     border: 1px solid #695e5e;
     color: white;
     font-size: 20px;
     outline: none;
+    padding: 5px 8px 5px 10px;
  }
+.input:focus{
+    border: 1px solid #17f800;
+}
 .btn{
     background: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 15px rgb(82, 80, 80);
@@ -19,7 +23,9 @@ background: rgba(255,255,255,0.1);
     font-size: 20px;
     border: none;
 border-radius: 8px;
+    cursor: pointer;
 }
+
 .error{
     padding-left: 5px;
 
