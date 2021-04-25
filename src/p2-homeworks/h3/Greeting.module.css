@@ -1,7 +1,26 @@
-.someClass {
-
+.div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    padding-left: 5px;
 }
+.input{
+background: rgba(255,255,255,0.1);
+    border-radius: 16px;
+    border: 1px solid #695e5e;
+    color: white;
+    font-size: 20px;
+    outline: none;
+ }
+.btn{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgb(82, 80, 80);
+    color: #dfd5d5;
+    font-size: 20px;
+    border: none;
+border-radius: 8px;
+}
+.error{
+    padding-left: 5px;
 
-.error {
-    border: 1px solid red;
 }
