@@ -1,0 +1,15 @@
+
+body {
+    background-color: #6ace7c
+}
+
+.milk-404 {
+    max-height: 40vh;
+
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
