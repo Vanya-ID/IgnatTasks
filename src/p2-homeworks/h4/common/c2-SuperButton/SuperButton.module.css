@@ -1,9 +1,10 @@
 .default {
     background: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgb(82 80 80);
+
     color: #dfd5d5;
     font-size: 20px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 8px;
     margin: 5px;
     cursor: pointer;
@@ -12,6 +13,8 @@
 .default:hover {
     border: 1px solid #17f800;
 }
+
+
 
 .default:active {
     background: rgb(33, 147, 90);

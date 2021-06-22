@@ -33,9 +33,22 @@ function HW8() {
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
-    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
-    const check = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
+    type classType = 'up' | 'down' | 'check'
+
+    let [activeClass, setActiveClass] = useState<classType>('up')
+
+    const sortUp = () => {
+        setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
+        setActiveClass('up')
+    }
+    const sortDown = () => {
+        setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
+        setActiveClass('down')
+    }
+    const check = () => {
+        setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
+        setActiveClass('check')
+    }
 
     return (
         <div>
@@ -45,9 +58,21 @@ function HW8() {
             {/*should work (должно работать)*/}
             {finalPeople}
 
-            <SuperButton onClick={sortUp}>sort up</SuperButton>
-            <SuperButton onClick={sortDown}>sort down</SuperButton>
-            <SuperButton onClick={check}>check 18</SuperButton>
+            <SuperButton style={{
+                backgroundColor: activeClass === 'up' ? 'green' : ''
+            }}
+                         onClick={sortUp}>sort up
+            </SuperButton>
+            <SuperButton style={{
+                backgroundColor: activeClass === 'down' ? 'green' : ''
+            }}
+                         onClick={sortDown}>sort down
+            </SuperButton>
+            <SuperButton style={{
+                backgroundColor: activeClass === 'check' ? 'green' : ''
+            }}
+                         onClick={check}>check 18
+            </SuperButton>
 
 
             <hr/>
