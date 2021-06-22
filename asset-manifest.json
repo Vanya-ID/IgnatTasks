@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/IgnatTasks/static/css/main.e2c8288d.chunk.css",
-    "main.js": "/IgnatTasks/static/js/main.a3f76567.chunk.js",
-    "main.js.map": "/IgnatTasks/static/js/main.a3f76567.chunk.js.map",
+    "main.css": "/IgnatTasks/static/css/main.8639c52c.chunk.css",
+    "main.js": "/IgnatTasks/static/js/main.07a4f740.chunk.js",
+    "main.js.map": "/IgnatTasks/static/js/main.07a4f740.chunk.js.map",
     "runtime-main.js": "/IgnatTasks/static/js/runtime-main.f751fa8d.js",
     "runtime-main.js.map": "/IgnatTasks/static/js/runtime-main.f751fa8d.js.map",
-    "static/js/2.07adae7a.chunk.js": "/IgnatTasks/static/js/2.07adae7a.chunk.js",
-    "static/js/2.07adae7a.chunk.js.map": "/IgnatTasks/static/js/2.07adae7a.chunk.js.map",
+    "static/js/2.eb3fefca.chunk.js": "/IgnatTasks/static/js/2.eb3fefca.chunk.js",
+    "static/js/2.eb3fefca.chunk.js.map": "/IgnatTasks/static/js/2.eb3fefca.chunk.js.map",
     "index.html": "/IgnatTasks/index.html",
-    "static/css/main.e2c8288d.chunk.css.map": "/IgnatTasks/static/css/main.e2c8288d.chunk.css.map",
-    "static/js/2.07adae7a.chunk.js.LICENSE.txt": "/IgnatTasks/static/js/2.07adae7a.chunk.js.LICENSE.txt"
+    "static/css/main.8639c52c.chunk.css.map": "/IgnatTasks/static/css/main.8639c52c.chunk.css.map",
+    "static/js/2.eb3fefca.chunk.js.LICENSE.txt": "/IgnatTasks/static/js/2.eb3fefca.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f751fa8d.js",
-    "static/js/2.07adae7a.chunk.js",
-    "static/css/main.e2c8288d.chunk.css",
-    "static/js/main.a3f76567.chunk.js"
+    "static/js/2.eb3fefca.chunk.js",
+    "static/css/main.8639c52c.chunk.css",
+    "static/js/main.07a4f740.chunk.js"
   ]
 }
