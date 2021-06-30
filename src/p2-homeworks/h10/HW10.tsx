@@ -31,7 +31,7 @@ function HW10() {
                         <img style={{
                             height: '50px',
                             width: '50px'
-                        } } src="https://goo.su/699V" alt="Крутилка"/>
+                        } } src="https://clck.ru/VogSb" alt="Крутилка"/>
                     </div>
                 ) : (
                     <div style={{
